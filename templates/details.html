@@ -1,0 +1,17 @@
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+<title>
+    {{ Name }}
+</title>
+</head>
+<h2>
+    <strong>{{ name }}</strong>
+    <p >{{ desc }}<p >
+  </h2>
+  <h4>
+    {{ Name }} is {{ age }} years old
+    <br>
+    {{ Name }}'s breed is
+      <em>{{ breed }}</em>
+  </h4>
+  <img scr={{ image }} alt="Image of {{ name }} the {{ pet_type_stripped }}"/>

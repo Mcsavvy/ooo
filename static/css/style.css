@@ -1,0 +1,43 @@
+body {
+	font-family: Roboto, Ubuntu, Arial, sans-serif;
+    font-size: 81.25%;
+	background: black url("static/images/background.gif");
+	background-size: contain;
+	background-attachment: local;
+	font-style: oblique;
+	cursor: crosshair;
+}
+
+li a {
+	color: lightblue;
+}
+
+li em {
+	color: white;
+}
+h1 {
+	color:rgba(255, 255, 255, 0.616);
+	text-decoration: wavy;
+	text-decoration-line: unset;
+    text-decoration-thickness: initial;
+	text-decoration-style: dotted;
+    text-decoration-color: cornflowerblue;
+	
+}
+
+h1 a {
+	color: rgba(253, 253, 253, 0.377);
+	text-decoration: underline;
+	text-decoration-line: unset;
+    text-decoration-thickness: initial;
+    text-decoration-style: dotted;
+	text-decoration-color: cornflowerblue;
+	cursor: crosshair;
+}
+
+title {
+	color: yellow;
+
+}
+
+

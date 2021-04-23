@@ -1,0 +1,20 @@
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='/css/style.css') }}">
+<title>
+    {{ Pet_Type }}
+</title>
+</head>
+<body>
+    <h1>
+    List of {{ Pet_Type }}
+    </h1>
+    <ul>
+        {% for x in length %}
+        <li><a href={{ links[x] }}>{{ pet_names[x] }}</a>
+        </li>
+        {% endfor %}
+    </ul>
+</body>
+
+
+  
